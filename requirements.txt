@@ -9,4 +9,3 @@ python-dotenv==1.0.0
 streamlit-chat==0.1.1
 fredapi==0.5.1
 numpy==1.24.3
-datetime
