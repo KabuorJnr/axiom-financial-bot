@@ -1,0 +1,102 @@
+# AXIOM Financial Bot - Git Ignore Rules
+
+# Environment & Secrets (CRITICAL - Never commit API keys)
+.env
+.env.local
+.env.*.local
+*.env
+config_local.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv
+venv/
+ENV/
+env/
+.env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+*.tmp
+*.temp
+
+# Test files (don't commit to production)
+test_*.py
+*_test.py
+debug_*.py
+*_debug.py
+
+# Local development helpers
+startup.py
+launch*.bat
+install_local.sh
+
+# Deployment (don't commit keys to repo)
+.vercel
+.netlify
+
+# Backup files
+*.bak
+*.backup
+*_backup.*
+
+# Data files (if any large datasets)
+data/
+*.csv
+*.xlsx
+*.json.gz
+
+# Model files (if downloading any ML models)
+models/
+*.pkl
+*.h5
+*.pt

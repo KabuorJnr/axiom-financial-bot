@@ -1,0 +1,4 @@
+# AXIOM Financial Markets Bot - Deployment
+
+vercel_project_name = "axiom-financial-bot"
+python_version = "3.11"
